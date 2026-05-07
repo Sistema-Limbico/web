@@ -1,32 +1,54 @@
+font-face{
+    font-family: Abril;
+    src: url(Abril.ttf);
+}
+@font-face{
+    font-family: Fraunces;
+    src:url(Fraunces.ttf);
+}
 h3{
     padding-top:10px;
     margin: 10px;
  font-size: 150%;
+ font-family: Abril;
 }
 p{
     padding-left: 25px;
     padding-right: 40px;
     font-size: 150%;
+    font-family: Fraunces;
+    text-align:justify;
 }
 img{
     float: right;
 }
+aside{
+    float: right;
+    padding:20px;
+}
 h1{
     background-color: rgb(29, 51, 90);
     color: white;
+    font-family: Abril;
 }
 h2{
     padding-left: 10px;
     padding-top:50px;
     font-size: 200%;
     color: rgb(29, 51, 90);
+    font-family: Abril;
 }
 b{
     font-size:110%; 
+    font-family: Fraunces;
 }
 table{
     float:right;
     border-radius: 10px;
     padding:20px;
     background-color:rgb(175, 182, 190);
+}
+a{
+    color: white;
+
 }
